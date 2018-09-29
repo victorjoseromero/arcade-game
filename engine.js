@@ -34,7 +34,7 @@ var Engine = (function(global) {
 		
 	
 		
-const modal = document.querySelector('.modal-bg');
+const modal = document.querySelector('.hide');
 const replay = document.querySelector('.modal-button');		
 
 
@@ -198,7 +198,7 @@ const replay = document.querySelector('.modal-button');
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-        // noop
+        
     }
 
     /* Go ahead and load all of the images we know we're going to need to
